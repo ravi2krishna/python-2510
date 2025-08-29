@@ -120,3 +120,97 @@
             -> GitHub  (Store Code)
 
             
+29th Aug 2025
+=============
+
+-> Install Python 
+
+    -> Verify using : python --Version
+
+-> Start Writing Python Code
+
+    -> Script Mode (100%)
+
+        -> Using Files / Using IDE
+
+        -> NOTE : Files are permanently stored on disk, and later pushed to Github
+
+    -> Command Line Mode / Interactive Mode (Quick Checks)
+
+        -> No files, directly working with Interpreter
+
+        -> NOTE : The values are expressions are only valid for that particular session only,
+            once we close the session/window, values are obsolete 
+
+    -> Like English has 26 alphabets, which forms the whole english language
+
+    -> In python we have keywords (35)
+
+        -> keywords + Syntax = program / application
+
+    -> keywords - hold special meaning to python 
+
+    ->  False      await      else       import     pass
+        None       break      except     in         raise
+        True       class      finally    is         return
+        and        continue   for        lambda     try
+        as         def        from       nonlocal   while
+        assert     del        global     not        with
+        async      elif       if         or         yield    
+
+
+-> Identifiers
+
+    -> An Identifier in python is a name used to Identify
+
+        -> variable
+        -> function
+        -> class
+        -> object 
+        -> method
+        -> etc
+
+    -> Rules for naming Identifiers in python
+
+        -> Can Contain:
+
+            -> Letters (a-z, A-Z) 
+            -> Digits(0-9)
+            -> Only Underscore(_)
+
+        -> Must Start with:
+
+            -> A letter (a-z, A-Z)
+            -> A Underscore(_)
+
+        -> Cannot start with Digit
+        -> Cannot be a keyword 
+        -> Case Sensitive - name, Name, NAME     
+
+-> Variables
+
+    -> Variables are names for memory locations
+
+        -> Memory (Physically) - RAM 
+
+        -> Disk (Storing Files)
+
+    -> A variable will allow you to
+
+        -> Assign Data
+        -> Manipulate Data (If Required)
+        -> Retrieve Data
+
+    -> Syntax 
+
+        -> variable_name = value
+           course_duration = 35
+
+           = Assignment Operator 
+
+
+    -> NOTE : use id() to get memory locations of Variables
+
+    -> NOTE : use type() to get the type of data 
+
+
