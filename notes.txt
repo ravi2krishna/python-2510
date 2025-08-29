@@ -1,0 +1,122 @@
+28th Aug 2025
+=============
+
+    -> Python : Python is a high-level, general-purpose programming language. 
+    Its design philosophy emphasizes code readability with the use of 
+    significant indentation. Python is dynamically type-checked and garbage-collected.
+
+    -> Programming Language : To Communicate with Machines(Computers) 
+
+    -> Human To Human : English, Hindi, Telugu etc
+
+    -> Human To Machine : Programming Language
+
+    -> Machines use : Binary Language (101010101)
+
+        -> 01110000 01111001 01110100 01101000 01101111 01101110
+
+    -> Python is a high-level language
+
+        -> Easy for humans to understand 
+
+        -> Designed for Application Development 
+
+        -> Slow Execution
+
+    -> Low Level Programming Languages
+
+        -> Difficult for humans to understand  
+
+        -> Designed for Hardware Level(Embedded Systems)
+
+        -> Fast Execution
+
+    -> General-purpose programming language
+
+        -> Work with 
+
+            -> Desktop Applications
+            -> Web Applications
+            -> API Development
+            -> etc 
+
+    -> Domain Specific programming language
+
+        -> SQL - Structured Query Language is a domain-specific language 
+            used to manage data, especially in a relational database management system.
+
+            -> SQL - Only for data management inside databases 
+
+
+    -> Programming Paradigms 
+
+        -> Structure the implementation of a computer program
+
+        -> Python is a Multi Paradigm programming language
+
+            -> Imperative Style / Approach
+
+                -> How To Do (Task/Action)
+
+                -> w.r.t python OOPS 
+
+            -> Declarative Style / Approach
+
+                -> What To Do (Task/Action)
+
+                -> w.r.t python Functional Programming 
+
+
+    -> Hardware 
+
+        -> i3 / i5(*) processor 
+        -> 8 GB RAM at least
+        -> 500 GB of HDD
+
+    -> Softwares 
+
+        -> System Softwares (OS)
+
+            -> Win / Linux / Unix(macos)
+
+                -> Install Python (Python Interpreter)
+
+                    -> Making your system capable of running python code
+
+                -> Install IDE (Integrated Development Environment) 
+
+                    -> For writing code 
+
+                    -> With IDE's you got support for 
+
+                        -> Auto Code Completion
+
+                        -> Syntax Highlighting
+
+                        -> External Extensions (Plugins)
+
+                        -> Debugging tools etc
+
+                    -> Install Visual Studio Code (VS Code)
+
+                -> Install Git (Version Controlling - Code Tracking)
+
+                    -> For Code Tracking
+
+                    -> Git can track code in your workstation (Your Laptop)
+
+                    -> GitHub : Platform from microsoft to store the code of a project
+
+                        -> We have 5 developers, all the 5 developers will have their own 
+                        Laptops, in their individual laptops they will install git (client)    
+
+                        -> All the 5 developers, when they have completed their work, using
+                            git they will upload all their code to GitHub
+
+        -> NOTE : Integrate VS Code --> Git --> GitHub 
+
+            -> VS Code (Write Code)
+            -> Git     (Track Code)
+            -> GitHub  (Store Code)
+
+            
