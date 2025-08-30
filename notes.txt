@@ -198,7 +198,7 @@
     -> A variable will allow you to
 
         -> Assign Data
-        -> Manipulate Data (If Required)
+        -> Manipulate Data (If Required) 
         -> Retrieve Data
 
     -> Syntax 
@@ -212,5 +212,123 @@
     -> NOTE : use id() to get memory locations of Variables
 
     -> NOTE : use type() to get the type of data 
+
+
+30th Aug 2025
+=============
+
+-> Output Data : print() --> stdout --> monitor
+
+-> Concatenation : Is joining multiple strings together, using + operator 
+
+-> NOTE : There is a concept over operator(+) overloading (Polymorphism), where a single 
+    entity can exhibit multiple behaviors 
+
+    -> using + operator, we can also perform mathematical addition operations, 
+        when dealing with numbers
+
+-> Interpolation : Is replacing placeholders with actual values
+
+-> Using f-strings (Formatted String Literals)
+
+    -> An f-string allows you to embed variables directly inside a string using {} 
+
+    -> when using f-strings for print we add "f"
+
+
+-> Operators : In python, an operator is symbol which performs an operation on
+    variables and its values
+
+    -> To Manipulate the data inside variable we need Operators
+
+    -> Arithmetic Operators : Mathematical operations    
+        -> + - * / %
+        -> // - floor division(same as division, but rounds off value)
+        -> ** - exponentiation(power)
+
+    -> Compound Assignment Operators: Combining Arithmetic & Assignment Operators
+        -> Used for concise(short hand) code 
+        -> x = x + 5 (without Compound Assignment Operator)
+        -> x += 5 (with Compound Assignment Operator)
+        -> x *= 5
+        
+    -> Comparison Operators 
+        -> Used to compare Values and they return boolean(True/False) as result
+        -> ==, !=, >, <, >=, <=
+
+    -> Logical Operators
+        -> Used to combine multiple conditions(boolean values) 
+        -> and : returns true, when both conditions are true
+        -> or : returns true, when at least one condition is true
+        -> not : negates the boolean value, if value is true, when we negate, 
+            it becomes false 
+
+    -> Membership Operators
+        -> Used to test if a sequence is present in a object
+            -> in : returns True, if the sequence has specified value
+            -> not in : returns True, if the sequence has no specified value
+
+    -> Identity Operators
+        -> Used to compare objects    
+        -> is : returns True, if both variables are pointing to same address
+        -> is not : returns True, if both variables are not pointing to same address    
+        -> NOTE : We use == to compare values
+
+    -> OPTIONAL : Bitwise Operators
+        -> Used for working with low level programming i.e binary bits (1001's)
+
+
+-> Data Types 
+
+    -> Data types are categories that define, what kind of data a variable can hold
+
+    -> Python is dynamic type checked language 
+
+    -> Let say i'm in java world (Static Typed Language)
+        String brand = "THE BEAR HOUSE";
+        String desc =  "Men Maroon & Navy Blue Slim Fit Checked Flannel Casual Shirt";
+        float rating = 4.3f;
+        int price = 923;
+
+    -> Let say i'm in python world (Dynamic Typed Language)
+        brand = "THE BEAR HOUSE"
+        desc =  "Men Maroon & Navy Blue Slim Fit Checked Flannel Casual Shirt"
+        rating = 4.3
+        price = 923   
+    
+    -> Numeric Types 
+
+        -> int : Whole numbers 0,1,-10, 20 etc
+        -> float : Decimal numbers 3.14, 5.5, 2.0 etc
+        -> complex :  in math we have a + ib ( i - imaginary number)
+                      in python we use a + jb ( j - imaginary number)
+
+    -> Text Type : String is a sequence of characters enclosed b/w ' ' or " "    
+
+    -> Boolean Type : True / False
+
+    -> Sequence Type 
+
+        -> String : String is a sequence of characters enclosed b/w ' ' or " "    
+        -> List : Multiple Values stored inside [] -> [10,20,30] -> Mutable
+        -> Tuple : Multiple Values stored inside () -> (10,20,30) -> Immutable
+
+    -> Set Type
+
+        -> Set : Multiple Values stored inside {} -> {10,20,30} -> Mutable & Unique
+        -> Frozen Set : Multiple Values stored inside {} -> {10,20,30} -> Immutable & Unique
+
+    -> Mapping Type
+
+        -> Dictionary : Multiple Key & Values stored inside {"name":"Ravi", "age":25} ->     
+
+    -> None Type 
+
+        -> Represent absence of value 
+
+    -> NOTE : All above are pre-defined data types
+
+    
+
 
 
