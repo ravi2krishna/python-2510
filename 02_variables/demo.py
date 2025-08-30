@@ -70,3 +70,106 @@ print(x,y,z)
 
 x = y = z = 10
 print(x,y,z)
+
+# Arithmetic Operators
+n1 = 3
+n2 = 2
+print(f"Sum of n1 and n2 is: {n1+n2}")
+print(f"Difference of n1 and n2 is: {n1-n2}")
+print(f"Product of n1 and n2 is: {n1*n2}")
+print(f"Division of n1 and n2 is: {n1/n2}")
+print(f"Modulus of n1 and n2 is: {n1%n2}")
+print(f"Floor Division of n1 and n2 is: {n1//n2}")
+print(f"exponentiation of n1 and n2 is: {n1**n2}")
+
+# Without Compound Assignment Operators
+x = 10
+x = x + 5
+print(x)
+
+# With Compound Assignment Operators
+x = 10
+print(id(x))
+x+= 5 # x = 10 + 5 = 15
+print(id(x))
+print(x)
+
+f = 10
+print(id(x))
+x*= 5 # 15 * 5
+print(f)
+
+# Comparison Operators 
+n1 = 3
+n2 = 2
+n3 = 3
+print(n1 == n2)
+print(n1 == n3)
+print(n1 != n3)
+print(n1 > n2)
+
+# Logical Operators
+x = 5
+y = 7
+a = 10
+b = 8
+resultAND = x < y and a > b # T and T -> T
+print(resultAND)
+resultAND = x < y and a < b # T and F -> F
+print(resultAND)
+
+resultOR =  x < y or a < b # T or F -> T
+print(resultOR)
+resultOR =  x > y or a < b # F or F -> F
+print(resultOR)
+
+resultNOT = x < y or a < b # T or F -> T
+print(not resultNOT)
+
+# List is a sequence data type
+list_nums = [10,20,30,40,50] 
+is_present = 10 in list_nums
+print(is_present)
+is_present = 100 in list_nums
+print(is_present)
+
+# string is also a sequence data type
+msg = "hello"
+is_present = "a" not in msg
+print(is_present)
+is_present = "e" in msg
+print(is_present)
+
+# Identity Operators
+n1 = 10
+n2 = 10
+n3 = 10.0
+
+print(n1 == n2) # compare values
+print(n1 is n2) # compare addresses
+print(n1 is n3) # compare addresses
+
+# NOTE : Numbers are Immutable(Not Changeable) Data Types
+# LIST : Lists are Mutable(Changeable) Data Types
+l1 = [10,20,30] # [], 10, 20, 30 
+l2 = [10,20,30]
+print(l1 == l2) # compare values
+print(l1 is l2) # compare addresses
+print(l1 is not l2) # compare addresses
+print(id(l1))
+print(id(l2))
+print(id(n1))
+print(id(n2))
+print(id(l1[0]))
+print(id(l2[0]))
+
+# Bitwise Operators
+a = 5 # 0000000000000101
+b = 3 # 0000000000000011 
+#|    # 0000000000000111
+#&    # 0000000000000001
+
+a = "a"
+
+print(a & b)
+print(a | b)
