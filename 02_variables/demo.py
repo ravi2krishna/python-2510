@@ -169,7 +169,44 @@ b = 3 # 0000000000000011
 #|    # 0000000000000111
 #&    # 0000000000000001
 
-a = "a"
+# a = "a"
 
 print(a & b)
 print(a | b)
+
+# Data Types
+brand = "THE BEAR HOUSE"
+desc =  "Men Maroon & Navy Blue Slim Fit Checked Flannel Casual Shirt"
+rating = 4.3
+price = 923
+
+print(type(brand))
+print(type(desc))
+print(type(rating))
+print(type(price))
+
+com_num =  1 + 2j
+print(type(com_num))
+
+list_nums = [10,20,30] 
+print(type(list_nums))
+
+tuple_nums = (10,20,30)
+print(type(tuple_nums))
+
+set_nums = {10,20,30}
+print(type(set_nums))
+
+dict_data = {"name":"Ravi", "age":25}
+print(type(dict_data))
+
+x = None
+print(type(x))
+
+# Create your own data types - OOPS
+class Student:
+    pass # skip - do nothing 
+
+lync_student = Student()
+print(type(lync_student))
+print(id(lync_student))
