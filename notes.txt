@@ -511,3 +511,12 @@
 =============
 
     -> String Methods : Continued 
+
+    -> Application Using 
+        [ Identifiers - Variables - Operators - Control Statements - Strings]
+
+    
+
+
+
+
